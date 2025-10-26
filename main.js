@@ -1,7 +1,11 @@
 const app = Vue.createApp({
     data() {
         return {
-            product: 'Socks'
+            product: 'Socks',
+            image: './assets/images/socks_green.jpg',
+            test:'product-image',
+            url: 'https://www.google.com'
+
         }
     }
 })
