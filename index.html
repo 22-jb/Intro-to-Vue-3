@@ -11,10 +11,15 @@
   <body>
     <div id="app">
       <h1> {{ product }}</h1>
-      <p></p>
+      <p>{{ description }}</p>
     </div>
 
     <!-- Import Js -->
     <script src="./main.js"></script>
+
+    <!-- Mount App -->
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
   </body>
 </html>
